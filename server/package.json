@@ -1,0 +1,19 @@
+{
+  "type": "module",
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "fastify:http": "node server-configuration/fastify-http.js",
+    "fastify:https": "node server-configuration/fastify-https.js",
+    "caddy:http": "caddy run --config caddy/Caddyfile.http",
+    "caddy:https": "caddy run --config caddy/Caddyfile.https"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^5.10.0"
+  }
+}

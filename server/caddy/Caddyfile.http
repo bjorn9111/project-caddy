@@ -1,0 +1,11 @@
+{
+    layer4
+}
+
+:8443 {
+    route {
+        proxy {
+            upstream 127.0.0.1:3000
+        }
+    }
+}

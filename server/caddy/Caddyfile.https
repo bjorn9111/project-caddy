@@ -1,0 +1,9 @@
+{
+    auto_https disable_redirects
+    local_certs
+}
+
+:8443 {
+    tls internal
+    reverse_proxy 127.0.0.1:3000
+}
