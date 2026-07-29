@@ -4,7 +4,7 @@ IMAGE="tvsjsdock/h2load-http3"
 
 # h2load configuration
 THREADS=2
-WARMUP_REQUESTS=5000
+WARMUP_REQUESTS=20000
 
 # Resolve paths relative to this file
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
