@@ -16,13 +16,13 @@ progress: 80% done
 progress: 90% done
 progress: 100% done
 
-finished in 5.85s, 8545.83 req/s, 342.38KB/s
-requests: 50000 total, 50000 started, 50000 done, 0 succeeded, 50000 failed, 0 errored, 0 timeout
-status codes: 0 2xx, 0 3xx, 0 4xx, 50000 5xx
-traffic: 1.96MB (2051280) total, 1.86MB (1950000) headers (space savings 43.48%), 0B (0) data
-UDP datagram: 26221 sent, 21787 received
+finished in 29.64s, 1687.05 req/s, 7.22MB/s
+requests: 50000 total, 50000 started, 50000 done, 49900 succeeded, 100 failed, 0 errored, 0 timeout
+status codes: 49900 2xx, 0 3xx, 0 4xx, 100 5xx
+traffic: 214.08MB (224475050) total, 3.31MB (3466470) headers (space savings 40.18%), 210.48MB (220707700) data
+UDP datagram: 132702 sent, 271040 received
                      min         max         mean         sd        +/- sd
-time for request:      955us    460.90ms    143.02ms     51.25ms    71.95%
-time for connect:    11.15ms    109.87ms     68.64ms     28.27ms    48.44%
-time to 1st byte:        0us         0us         0us         0us     0.00%
-req/s           :      66.82       77.43       68.73        1.93    87.50%
+time for request:      838us      27.29s    423.69ms       1.83s    96.04%
+time for connect:    18.42ms    153.69ms     73.46ms     31.71ms    72.66%
+time to 1st byte:    56.07ms       2.88s    392.98ms    385.88ms    97.66%
+req/s           :      13.17       22.93       17.62        3.23    50.78%
