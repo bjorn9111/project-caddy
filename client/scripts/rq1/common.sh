@@ -2,8 +2,8 @@
 
 IMAGE="tvsjsdock/h2load-http3"
 
-REQUESTS=1000
-CLIENTS=2
+REQUESTS=50000
+CLIENTS=32
 THREADS=2
 
 check_server() {
@@ -29,7 +29,7 @@ warmup() {
         $IMAGE \
         "$@" \
         -t "$THREADS" \
-        -n 500 \
+        -n 20000 \
         -c "$CLIENTS" \
         "$URL" \
         > /dev/null
