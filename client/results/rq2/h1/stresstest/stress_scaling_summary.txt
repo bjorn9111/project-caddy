@@ -1,5 +1,5 @@
 H1 stress scaling benchmark
-Date: Wed Jul 29 13:29:09 UTC 2026
+Date: Thu Jul 30 20:52:07 UTC 2026
 =================================
 
 =================================
@@ -24,15 +24,15 @@ progress: 80% done
 progress: 90% done
 progress: 100% done
 
-finished in 26.97s, 1853.67 req/s, 8.13MB/s
+finished in 31.63s, 1580.60 req/s, 6.93MB/s
 requests: 50000 total, 50000 started, 50000 done, 50000 succeeded, 0 failed, 0 errored, 0 timeout
 status codes: 50000 2xx, 0 3xx, 0 4xx, 0 5xx
 traffic: 219.20MB (229850000) total, 6.44MB (6750000) headers (space savings 0.00%), 210.91MB (221150000) data
                      min         max         mean         sd        +/- sd
-time for request:      401us     28.15ms      1.07ms       462us    90.25%
-time for connect:     5.68ms      8.24ms      6.96ms      1.81ms   100.00%
-time to 1st byte:    10.83ms     12.44ms     11.63ms      1.14ms   100.00%
-req/s           :     926.85      928.16      927.50        0.92   100.00%
+time for request:      507us     10.83ms      1.19ms       428us    88.60%
+time for connect:     7.68ms      9.67ms      8.67ms      1.40ms   100.00%
+time to 1st byte:    11.16ms     15.67ms     13.42ms      3.19ms   100.00%
+req/s           :     790.33      882.18      836.25       64.95   100.00%
 
 =================================
 Running test with 4 clients
@@ -56,15 +56,15 @@ progress: 80% done
 progress: 90% done
 progress: 100% done
 
-finished in 15.71s, 3182.81 req/s, 13.95MB/s
+finished in 21.45s, 2331.39 req/s, 10.22MB/s
 requests: 50000 total, 50000 started, 50000 done, 50000 succeeded, 0 failed, 0 errored, 0 timeout
 status codes: 50000 2xx, 0 3xx, 0 4xx, 0 5xx
 traffic: 219.20MB (229850000) total, 6.44MB (6750000) headers (space savings 0.00%), 210.91MB (221150000) data
                      min         max         mean         sd        +/- sd
-time for request:      389us     10.38ms      1.23ms       577us    82.45%
-time for connect:     4.84ms     15.22ms      8.64ms      4.54ms    75.00%
-time to 1st byte:     8.72ms     17.09ms     14.05ms      3.90ms    75.00%
-req/s           :     795.74      819.77      807.66       12.70   100.00%
+time for request:      442us     17.12ms      1.56ms       725us    83.31%
+time for connect:    12.80ms     17.31ms     14.62ms      1.91ms    75.00%
+time to 1st byte:    17.91ms     21.04ms     19.80ms      1.40ms    75.00%
+req/s           :     582.84      698.15      640.46       63.57   100.00%
 
 =================================
 Running test with 8 clients
@@ -88,15 +88,15 @@ progress: 80% done
 progress: 90% done
 progress: 100% done
 
-finished in 13.15s, 3801.37 req/s, 16.67MB/s
+finished in 15.79s, 3165.99 req/s, 13.88MB/s
 requests: 50000 total, 50000 started, 50000 done, 50000 succeeded, 0 failed, 0 errored, 0 timeout
 status codes: 50000 2xx, 0 3xx, 0 4xx, 0 5xx
 traffic: 219.20MB (229850000) total, 6.44MB (6750000) headers (space savings 0.00%), 210.91MB (221150000) data
                      min         max         mean         sd        +/- sd
-time for request:      405us     25.93ms      2.07ms      1.18ms    82.29%
-time for connect:    18.39ms     20.47ms     19.46ms       833us    37.50%
-time to 1st byte:    36.98ms     44.30ms     41.73ms      2.26ms    75.00%
-req/s           :     475.29      486.48      480.72        3.69    75.00%
+time for request:      395us     24.38ms      2.40ms      1.11ms    76.37%
+time for connect:     6.33ms     17.24ms     12.76ms      4.34ms    50.00%
+time to 1st byte:    13.37ms     27.34ms     20.53ms      4.40ms    62.50%
+req/s           :     395.77      425.96      415.92       12.18    75.00%
 
 =================================
 Running test with 16 clients
@@ -120,15 +120,15 @@ progress: 80% done
 progress: 90% done
 progress: 100% done
 
-finished in 12.43s, 4023.89 req/s, 17.64MB/s
+finished in 14.17s, 3529.71 req/s, 15.47MB/s
 requests: 50000 total, 50000 started, 50000 done, 50000 succeeded, 0 failed, 0 errored, 0 timeout
 status codes: 50000 2xx, 0 3xx, 0 4xx, 0 5xx
 traffic: 219.20MB (229850000) total, 6.44MB (6750000) headers (space savings 0.00%), 210.91MB (221150000) data
                      min         max         mean         sd        +/- sd
-time for request:      489us     22.82ms      3.95ms      2.09ms    76.10%
-time for connect:     4.88ms     17.33ms     10.22ms      4.52ms    56.25%
-time to 1st byte:    12.35ms     23.31ms     18.71ms      3.17ms    68.75%
-req/s           :     251.55      254.77      252.77        0.88    68.75%
+time for request:      405us     31.50ms      4.14ms      2.45ms    74.89%
+time for connect:     7.43ms     30.74ms     19.31ms      6.78ms    68.75%
+time to 1st byte:    14.97ms     49.06ms     30.98ms      9.69ms    68.75%
+req/s           :     220.63      299.98      244.51       31.44    87.50%
 
 =================================
 Running test with 32 clients
@@ -152,15 +152,15 @@ progress: 80% done
 progress: 90% done
 progress: 100% done
 
-finished in 10.13s, 4935.01 req/s, 21.64MB/s
+finished in 14.08s, 3551.05 req/s, 15.57MB/s
 requests: 50000 total, 50000 started, 50000 done, 50000 succeeded, 0 failed, 0 errored, 0 timeout
 status codes: 50000 2xx, 0 3xx, 0 4xx, 0 5xx
 traffic: 219.20MB (229850000) total, 6.44MB (6750000) headers (space savings 0.00%), 210.91MB (221150000) data
                      min         max         mean         sd        +/- sd
-time for request:      462us     31.82ms      6.42ms      3.20ms    72.79%
-time for connect:     9.52ms     37.10ms     20.46ms      6.94ms    68.75%
-time to 1st byte:    21.07ms     55.93ms     31.39ms      7.78ms    71.88%
-req/s           :     154.19      158.51      155.29        0.95    81.25%
+time for request:      469us     41.22ms      8.55ms      4.16ms    73.15%
+time for connect:    10.29ms     30.07ms     20.98ms      5.05ms    62.50%
+time to 1st byte:    25.13ms     49.15ms     37.37ms      8.09ms    46.88%
+req/s           :     111.01      122.21      116.81        4.36    46.88%
 
 =================================
 Running test with 64 clients
@@ -184,15 +184,15 @@ progress: 80% done
 progress: 90% done
 progress: 100% done
 
-finished in 10.71s, 4666.48 req/s, 20.46MB/s
+finished in 11.93s, 4189.99 req/s, 18.37MB/s
 requests: 50000 total, 50000 started, 50000 done, 50000 succeeded, 0 failed, 0 errored, 0 timeout
 status codes: 50000 2xx, 0 3xx, 0 4xx, 0 5xx
 traffic: 219.20MB (229850000) total, 6.44MB (6750000) headers (space savings 0.00%), 210.91MB (221150000) data
                      min         max         mean         sd        +/- sd
-time for request:      602us    122.60ms     13.49ms      7.50ms    75.40%
-time for connect:    11.74ms     53.13ms     29.21ms     12.17ms    67.19%
-time to 1st byte:    34.16ms     72.01ms     48.96ms     10.10ms    67.19%
-req/s           :      72.93       77.06       73.92        0.86    78.13%
+time for request:      600us     71.52ms     14.54ms      6.11ms    74.25%
+time for connect:    16.34ms     65.67ms     40.98ms     10.91ms    75.00%
+time to 1st byte:    43.04ms    101.55ms     68.96ms     15.65ms    71.88%
+req/s           :      65.45       73.84       68.61        2.79    51.56%
 
 =================================
 Running test with 128 clients
@@ -216,15 +216,15 @@ progress: 80% done
 progress: 90% done
 progress: 100% done
 
-finished in 11.50s, 4348.19 req/s, 19.06MB/s
+finished in 11.50s, 4347.95 req/s, 19.06MB/s
 requests: 50000 total, 50000 started, 50000 done, 50000 succeeded, 0 failed, 0 errored, 0 timeout
 status codes: 50000 2xx, 0 3xx, 0 4xx, 0 5xx
 traffic: 219.20MB (229850000) total, 6.44MB (6750000) headers (space savings 0.00%), 210.91MB (221150000) data
                      min         max         mean         sd        +/- sd
-time for request:      412us    209.15ms     28.62ms     19.38ms    83.65%
-time for connect:    14.06ms     65.14ms     38.16ms     13.16ms    64.84%
-time to 1st byte:    58.03ms    144.67ms     94.17ms     21.54ms    66.41%
-req/s           :      33.98       39.57       34.83        0.83    85.16%
+time for request:      591us    835.15ms     28.33ms     16.37ms    86.27%
+time for connect:    16.99ms     73.61ms     43.74ms     10.59ms    75.78%
+time to 1st byte:    34.93ms    890.85ms    160.18ms    188.85ms    88.28%
+req/s           :      33.94       38.05       35.19        1.19    71.09%
 
 =================================
 Running test with 256 clients
@@ -248,14 +248,14 @@ progress: 80% done
 progress: 90% done
 progress: 100% done
 
-finished in 12.35s, 4050.22 req/s, 17.76MB/s
+finished in 14.09s, 3548.60 req/s, 15.56MB/s
 requests: 50000 total, 50000 started, 50000 done, 50000 succeeded, 0 failed, 0 errored, 0 timeout
 status codes: 50000 2xx, 0 3xx, 0 4xx, 0 5xx
 traffic: 219.20MB (229850000) total, 6.44MB (6750000) headers (space savings 0.00%), 210.91MB (221150000) data
                      min         max         mean         sd        +/- sd
-time for request:      557us    363.12ms     60.80ms     42.29ms    80.88%
-time for connect:    25.18ms    142.11ms     69.70ms     26.97ms    56.25%
-time to 1st byte:    89.26ms    298.29ms    180.34ms     44.27ms    63.67%
-req/s           :      15.81       18.27       16.36        0.47    75.39%
+time for request:      657us       4.23s     64.89ms    158.87ms    99.44%
+time for connect:    24.11ms    151.73ms     87.51ms     26.01ms    69.14%
+time to 1st byte:   121.50ms       3.49s    789.52ms    785.30ms    91.02%
+req/s           :      13.87       19.83       15.43        1.47    76.56%
 
 Stress test completed

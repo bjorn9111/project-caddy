@@ -7,4 +7,4 @@ URL="https://10.1.0.116:8443/"
 
 warmup "$URL" --h1
 
-benchmark "$URL" "rq1/caddy_proxy_tls" --h1
+benchmark "$URL" "rq1/caddy_tls" --h1

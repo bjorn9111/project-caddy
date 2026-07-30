@@ -16,12 +16,12 @@ progress: 80% done
 progress: 90% done
 progress: 100% done
 
-finished in 12.37s, 4041.27 req/s, 17.17MB/s
+finished in 15.26s, 3277.26 req/s, 13.93MB/s
 requests: 50000 total, 50000 started, 50000 done, 50000 succeeded, 0 failed, 0 errored, 0 timeout
 status codes: 50000 2xx, 0 3xx, 0 4xx, 0 5xx
-traffic: 212.49MB (222813609) total, 304.17KB (311465) headers (space savings 95.70%), 210.91MB (221150000) data
+traffic: 212.49MB (222814414) total, 304.95KB (312270) headers (space savings 95.69%), 210.91MB (221150000) data
                      min         max         mean         sd        +/- sd
-time for request:     1.06ms    318.06ms     77.72ms     45.23ms    72.78%
-time for connect:     5.96ms     37.70ms     19.23ms      9.27ms    68.75%
-time to 1st byte:    42.35ms    146.53ms    103.73ms     30.99ms    68.75%
-req/s           :     126.27      136.35      128.01        2.12    90.63%
+time for request:      960us       6.80s     86.47ms    454.14ms    98.49%
+time for connect:    11.55ms     78.56ms     30.85ms     17.49ms    78.13%
+time to 1st byte:    30.39ms       2.95s    744.83ms    980.67ms    81.25%
+req/s           :     102.46      137.05      110.80        7.89    78.13%
